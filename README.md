@@ -2,7 +2,7 @@ Budget Builder
 
 Budget Builder is for learning about your spending habits.
 
-You will use a dummy bank account to try out the app, not your real one. No need to worry about exposing your sensitive banking data.
+You will use a dummy bank account to try out the app, not your real one.
 
 Tech Stack
 
@@ -34,8 +34,6 @@ User Flow
 Testing
 
 Front End
-
-Testing on the front end can be done fairly simply.
 
 Components Test:
 
