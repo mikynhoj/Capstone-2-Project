@@ -1,4 +1,4 @@
-\c cash_counselor_test
+\c budget builder test
 
 
 DROP TABLE IF EXISTS transactions;
