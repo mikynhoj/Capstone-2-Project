@@ -2,7 +2,7 @@ Budget Builder
 
 Budget Builder is for learning about your spending habits.
 
-You will use a dummy bank account to try out the app, not your real one.
+You will use a dummy bank account to try out the app.
 
 Tech Stack
 
