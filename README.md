@@ -1,5 +1,3 @@
-<img src="./logo.jpg" width="300" height="300" />
-
 Budget Builder
 
 Budget Builder is for learning about your spending habits.
