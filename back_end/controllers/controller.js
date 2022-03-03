@@ -95,7 +95,7 @@ const createLinkToken = async (req, res, next) => {
       user: {
         client_user_id: req.body.user_id,
       },
-      client_name: "Cash Counselor",
+      client_name: "Budget Builder",
       products: ["transactions"],
       country_codes: ["US"],
       language: "en",
