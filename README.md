@@ -1,33 +1,23 @@
 <img src="./logo.jpg" width="300" height="300" />
 
-# Cash Counselor
+Budget Builder
 
-Cash Counselor is your one-stop-shop for learning about your spending habits.
+Budget Builder is for learning about your spending habits.
 
-[Here's](https://www.youtube.com/watch?v=wlVCz2S5Y6Q) a video of a quick walk through of the project.
+You will use a dummy bank account to try out the app, not your real one. No need to worry about exposing your sensitive banking data.
 
-The site is deployed [here](https://cash-counselor.herokuapp.com/).
-
-No worries. You will use a dummy bank account to try out the app, not your real one. No need to worry about exposing your sensitive banking data.
-
-### Tech Stack
-
-##
+Tech Stack
 
 - Backend: Express, PostgreSQL
 - Frontend: React
 
-### Data
-
-##
+Data
 
 API Used:
 
 - The [Plaid API](https://plaid.com/docs/) connects users to their real life banking institutions and allows user to retrieve their banking data. Once logged-in, account information such as transactions, routing numbers, and account numbers are accessible.
 
-### Features
-
-##
+Features
 
 - Account summary cards for all bank accounts associated with your bank login.
 - Visualize your transaction history with a bar chart or pie chart that graphs your data by time period, amount, and/or category of transaction.
@@ -35,9 +25,7 @@ API Used:
 - Security Feature: Auto-timeout one's banking session once user goes inactive for 10 mins so unauthorized users cannot gain access to your sensitive information.
 - User can create an account, edit its password or username, and delete the account.
 
-### User Flow
-
-##
+User Flow
 
 1. User must create an account or login into the 1st layer of the app.
 2. User can now login into their banking institution with the credentials for their "actual" bank account.
@@ -45,27 +33,25 @@ API Used:
 4. User can click on a specific account, and see all of their transactions for their given account.
 5. User can click on "Trends" and initiate a graph that depicts one's transaction history.
 
-### Testing
+Testing
 
-##
-
-##### Front End
+Front End
 
 Testing on the front end can be done fairly simply.
 
-###### Components Test:
+Components Test:
 
 1. In your terminal enter into the front_end folder and then install the package.json file.
 2. Comment out line 88 of Account.js located at ./front_end/components/ and uncomment line 87.
 3. Comment out line 11 of FilterTransactionsForm.js located at ./front_end/components/ and uncomment line 10.
 4. Now in your terminal enter into ./front_end/src/\_\_tests\_\_/components and run command npm test Components.test.js
 
-###### Action Creators Test:
+Action Creators Test:
 
 1. Do step one from right above if you haven't done so already.
 2. In your terminal enter into ./front_end/src/\_\_tests\_\_/components and run command npm test ActionCreators.test.js
 
-##### Backend
+Backend
 
 Testing on the backend requires one to signup for their own API keys from [Plaid](https://plaid.com/).
 
@@ -78,9 +64,7 @@ Once that is done, follow along to run the test.
 5. Enter into the \_\_tests\_\_ folder and enter the following command in your terminal for each file there, ONE BY ONE. Please do not run all files at once.
 6. jest NAME_OF_FILE.test.js (ex: jest ItemRoutes.test.js)
 
-### Database Design
-
-##
+Database Design
 
 An overview of how the database is set up.  
 ![image info](./database.JPG)
