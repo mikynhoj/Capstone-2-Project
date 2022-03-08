@@ -1,17 +1,17 @@
-#Budget Builder
+Budget Builder
 
 Budget Builder is for learning about your spending habits.
 
 You will use a dummy bank account to try out the app.
 
-##Tech Stack
+Tech Stack
 
 - Backend: Express, PostgreSQL
 - Frontend: React
 
-##Data
+Data
 
-###API Used:
+API Used:
 
 - The [Plaid API](https://plaid.com/docs/) connects users to their real life banking institutions and allows user to retrieve their banking data. Once logged-in, account information such as transactions, routing numbers, and account numbers are accessible.
 
